@@ -25,6 +25,7 @@ if (IS_PROD) {
   console.log("[sqliteHelper] Using DEVELOPMENT DB URL (Local Server)");
   // If your db file is in /public/example.db-data, this will resolve correctly
   dbUrl = `${BASE}example.db-data`;
+  
 }
 
 async function initWorker(): Promise<ReturnType<typeof createDbWorker>> {
