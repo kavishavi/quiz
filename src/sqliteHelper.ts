@@ -21,7 +21,6 @@ let dbUrl: string;
 if (IS_PROD) {
   console.log("[sqliteHelper] Using PRODUCTION DB URL (Raw GitHub)");
   dbUrl = "https://raw.githubusercontent.com/kavishavi/quiz/gh-pages/example.db-data";
-  
 } else {
   console.log("[sqliteHelper] Using DEVELOPMENT DB URL (Local Server)");
   // If your db file is in /public/example.db-data, this will resolve correctly
