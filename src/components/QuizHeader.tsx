@@ -11,7 +11,7 @@ interface Props {
 const QuizHeader: React.FC<Props> = ({ selectedDate, setSelectedDate, isCalendarOpen, setIsCalendarOpen }) => (
     <header className="header-section">
         <div className="header-top">
-            <h1 className="app-title">Daily Quiz</h1>
+            <h1 className="app-title">Daily quiz</h1>
             <div className="history-control">
                 <button className="history-button" onClick={() => setIsCalendarOpen(!isCalendarOpen)}>
                     <span className="history-text">{isCalendarOpen ? "Close" : "History"}</span>
